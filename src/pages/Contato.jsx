@@ -3,7 +3,7 @@ import FormField from "../components/FormField";
 
 const WPP_NUMBER = 5541996718526;
 const MAPS_IFRAME_SRC =
-  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.841844525005!2d-49.33526552562367!3d-25.576928038719387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcfdcfb6baf4ad%3A0x7d592b7e0ad40d17!2sTravessa%20Walter%20Sprengel%2C%20189%20-%20Tatuquara%2C%20Curitiba%20-%20PR%2C%2081470-317!5e0!3m2!1spt-BR!2sbr!4v1754690129554!5m2!1spt-BR!2sbr";
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7895689701973!2d-49.34099242569606!3d-25.578666838788468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcfdc4ec255065%3A0x9bfe60f16667e983!2sR.%20Rom%C3%A1rio%20Adalberto%20Oleskowicz%2C%20300%20-%20Tatuquara%2C%20Curitiba%20-%20PR%2C%2081470-347!5e0!3m2!1spt-BR!2sbr!4v1770684117884!5m2!1spt-BR!2sbr";
 
 
 // ---- helpers ----
@@ -174,7 +174,7 @@ ${data.mensagem}`
           <div className="rounded-xl border p-4 text-sm text-gray-700">
             <p><strong>Telefone:</strong> (41) 9 9671-8526</p>
             <p><strong>E-mail:</strong> renafercomercial07@gmail.com</p>
-            <p><strong>Endereço:</strong> Rua Romário Adalberto, 300 — Curitiba/PR</p>
+            <p><strong>Endereço:</strong> Rua Romário Adalberto Oleskowicz,n° 300 — Curitiba/PR</p>
             <p className="mt-2">
               <a
                 className="underline"
