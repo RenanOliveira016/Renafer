@@ -25,7 +25,7 @@ export default function Home() {
               Pedir Orçamento
             </a>
             <Link
-              to="/projetos"
+              to="/Projetos"
               className="px-5 py-3 rounded-md border font-medium hover:bg-gray-50"
             >
               Ver Projetos

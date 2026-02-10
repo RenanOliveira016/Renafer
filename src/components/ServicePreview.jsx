@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
 import ServiceCard from "./ServicesCard";
 
-const WPP = "https://wa.me/55SEU_NUMERO?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento.";
+const WPP = "https://wa.me/5541996718526?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento.";
 
 export default function ServicesPreview() {
   return (
@@ -32,9 +33,9 @@ export default function ServicesPreview() {
       </div>
 
       <div className="mt-6">
-        <a href="/servicos" className="inline-block px-4 py-2 rounded-md border font-medium hover:bg-gray-50">
-          Ver detalhes dos serviços
-        </a>
+        <Link to="/Servicos" className="inline-block px-4 py-2 rounded-md border font-medium hover:bg-gray-50">
+          Ver detalhes dos Serviços
+        </Link>
       </div>
     </section>
   );
