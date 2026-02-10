@@ -15,10 +15,10 @@ function App() {
       <main className="max-w-6xl mx-auto px-4 py-10">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Sobre" element={<Sobre />} />
-          <Route path="/Servicos" element={<Servicos />} />
-          <Route path="/Projetos" element={<Projetos />} />
-          <Route path="/Contato" element={<Contato />} />
+          <Route path="/sobre" element={<Sobre />} />
+          <Route path="/servicos" element={<Servicos />} />
+          <Route path="/srojetos" element={<Projetos />} />
+          <Route path="/contato" element={<Contato />} />
         </Routes>
       </main>
 

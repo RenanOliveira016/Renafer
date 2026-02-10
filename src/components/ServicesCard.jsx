@@ -32,7 +32,7 @@ export default function ServiceCard({ title, desc, items = [], ctaHref, icon: Ic
           rel="noreferrer"
           className="mt-5 inline-block px-4 py-2 rounded-md bg-[#0055A4] text-white font-medium hover:opacity-90"
         >
-          Pedir orçamento
+          Pedir Orçamento
         </a>
       </div>
     </article>

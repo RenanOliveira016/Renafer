@@ -33,7 +33,7 @@ export default function ServicesPreview() {
       </div>
 
       <div className="mt-6">
-        <Link to="/Servicos" className="inline-block px-4 py-2 rounded-md border font-medium hover:bg-gray-50">
+        <Link to="/servicos" className="inline-block px-4 py-2 rounded-md border font-medium hover:bg-gray-50">
           Ver detalhes dos Serviços
         </Link>
       </div>
