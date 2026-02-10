@@ -48,7 +48,7 @@ export default function Servicos() {
             rel="noreferrer"
             className="mt-4 inline-block px-4 py-2 rounded-md bg-[#0055A4] text-white font-medium hover:opacity-90"
           >
-            Falar com especialista
+            Falar com Especialista
           </a>
         </div>
 

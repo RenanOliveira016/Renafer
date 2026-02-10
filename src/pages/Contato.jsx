@@ -172,9 +172,9 @@ ${data.mensagem}`
           </div>
 
           <div className="rounded-xl border p-4 text-sm text-gray-700">
-            <p><strong>Telefone:</strong> (41) 9 9716-0986</p>
+            <p><strong>Telefone:</strong> (41) 9 9671-8526</p>
             <p><strong>E-mail:</strong> renafercomercial07@gmail.com</p>
-            <p><strong>Endereço:</strong> Travessa Walter Sprengel, 189 — Curitiba/PR</p>
+            <p><strong>Endereço:</strong> Rua Romário Adalberto, 300 — Curitiba/PR</p>
             <p className="mt-2">
               <a
                 className="underline"

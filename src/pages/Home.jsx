@@ -21,13 +21,13 @@ export default function Home() {
               rel="noreferrer"
               className="px-5 py-3 rounded-md bg-[#0055A4] text-white font-medium hover:opacity-90"
             >
-              Pedir orçamento
+              Pedir Orçamento
             </a>
             <a
-              href="/projetos"
+              href="/Projetos"
               className="px-5 py-3 rounded-md border font-medium hover:bg-gray-50"
             >
-              Ver projetos
+              Ver Projetos
             </a>
           </div>
 
