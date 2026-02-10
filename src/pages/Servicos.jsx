@@ -47,6 +47,14 @@ export default function Servicos() {
             target="_blank"
             rel="noreferrer"
             className="mt-4 inline-block px-4 py-2 rounded-md bg-[#0055A4] text-white font-medium hover:opacity-90"
+            onClick={() => {
+              if (window.gtag) {
+                window.gtag('event', 'clique_whatsapp', {
+                  'event_category': 'contato',
+                  'event_label': 'home_hero' // Mude para 'servicos' se for no outro botão
+                });
+              }
+            }}
           >
             Falar com Especialista
           </a>

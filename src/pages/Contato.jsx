@@ -151,6 +151,14 @@ ${data.mensagem}`
               target="_blank"
               rel="noreferrer"
               className="px-5 py-2 rounded-md border font-medium hover:bg-gray-50"
+              onClick={() => {
+                if (window.gtag) {
+                  window.gtag('event', 'clique_whatsapp', {
+                    'event_category': 'contato',
+                    'event_label': 'home_hero' // Mude para 'servicos' se for no outro botão
+                  });
+                }
+              }}
             >
               Abrir WhatsApp
             </a>
@@ -181,13 +189,21 @@ ${data.mensagem}`
                 href={`https://wa.me/${WPP_NUMBER}?text=${encodeURIComponent("Olá, gostaria de um orçamento.")}`}
                 target="_blank"
                 rel="noreferrer"
+                onClick={() => {
+                  if (window.gtag) {
+                    window.gtag('event', 'clique_whatsapp', {
+                      'event_category': 'contato',
+                      'event_label': 'home_hero' // Mude para 'servicos' se for no outro botão
+                    });
+                  }
+                }}
               >
                 Falar no WhatsApp
               </a>
             </p>
           </div>
         </aside>
-      </div>
-    </section>
+      </div >
+    </section >
   );
 }

@@ -17,10 +17,18 @@ export default function Home() {
 
           <div className="flex flex-wrap gap-3 pt-2">
             <a
-              href="https://wa.me/5541996718526?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento%20de%20estrutura%20met%C3%A1lica."
+              href="https://wa.me/5541996718526?text=..." // Seu link atual
               target="_blank"
               rel="noreferrer"
               className="px-5 py-3 rounded-md bg-[#0055A4] text-white font-medium hover:opacity-90"
+              onClick={() => {
+                if (window.gtag) {
+                  window.gtag('event', 'clique_whatsapp', {
+                    'event_category': 'contato',
+                    'event_label': 'home_hero' // Mude para 'servicos' se for no outro botão
+                  });
+                }
+              }}
             >
               Pedir Orçamento
             </a>
