@@ -1,7 +1,7 @@
 import ServiceCard from "../components/ServicesCard";
 import { IconBarracao, IconMezanino, IconMateriais } from "../components/Icons";
 
-const WPP = "https://wa.me/5541997160986?text=Ol%C3%A1%2C%20quero%20um%20or%C3%A7amento.";
+const WPP = "https://wa.me/5541996718526?text=Ol%C3%A1%2C%20quero%20um%20or%C3%A7amento.";
 
 export default function Servicos() {
   const cards = [

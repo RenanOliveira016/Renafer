@@ -65,7 +65,7 @@ export default function Projetos() {
       {/* CTA */}
       <div className="pt-2">
         <a
-          href="https://wa.me/5541997160986?text=Ol%C3%A1%2C%20vi%20os%20projetos%20da%20Renafer%20e%20quero%20um%20or%C3%A7amento."
+          href="https://wa.me/5541996718526?text=Ol%C3%A1%2C%20vi%20os%20projetos%20da%20Renafer%20e%20quero%20um%20or%C3%A7amento."
           target="_blank"
           rel="noreferrer"
           className="inline-block px-4 py-2 rounded-md bg-[#0055A4] text-white font-medium hover:opacity-90"
