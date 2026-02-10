@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ServicesPreview from "../components/ServicePreview";
 
 export default function Home() {
@@ -23,12 +24,12 @@ export default function Home() {
             >
               Pedir Orçamento
             </a>
-            <a
-              href="/Projetos"
+            <Link
+              to="/projetos"
               className="px-5 py-3 rounded-md border font-medium hover:bg-gray-50"
             >
               Ver Projetos
-            </a>
+            </Link>
           </div>
 
           <ul className="flex flex-wrap gap-x-6 gap-y-2 pt-4 text-sm text-gray-600">
